@@ -25,6 +25,7 @@ export default function RootLayout({
         {pathname != '/' && <Navbar/>}
         {children}
       </body>
+      <footer> Hecho con 💗 Méf! Finanzas Corporativas 2023</footer>
     </html>
   )
 }

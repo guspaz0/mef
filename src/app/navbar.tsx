@@ -9,7 +9,7 @@ export default function Navbar() {
     //const img: Image = logo
 
     return (
-    <nav>
+    <nav className={style.container}>
         <Image className={style.logo} src={logo} alt='MéF!'/>
         <span className={style.navbar}>
             <NavLinks/>

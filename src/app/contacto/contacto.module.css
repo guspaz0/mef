@@ -1,0 +1,17 @@
+.container {
+    border: solid 5px red;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
